@@ -5,7 +5,7 @@ import pickle
 from sklearn.preprocessing import StandardScaler
 
 # Cargar el modelo entrenado
-with open('lr_grupo1.pkl', 'lr') as file:
+with open('lr_grupo1.pkl', 'rb') as file:
     modelo = pickle.load(file)
 
 # Definir la interfaz de usuario en Streamlit
